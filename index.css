@@ -30,6 +30,7 @@
     background-color: rgb(77, 77, 77);
     background-blend-mode: multiply;
     padding-top: 50px;
+    justify-items: center;
   }
 
 
