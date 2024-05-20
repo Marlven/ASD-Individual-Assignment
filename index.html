@@ -34,7 +34,21 @@
 
     <section class="main">
       <div class="low-opacity-bg-image">
-        <div class="container m-5">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-ride="carousel"
+          style="width: 100%; height: 50%"
+        >
+          <div class="carousel-inner" >
+            <div class="carousel-item active">
+              <a class="anchorElement">
+                <img class="advertIMG" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="content m-5">
           <p class="">
             Welcome to Heartbreak Gym. Your one stop gym for all the lover boys
             and girls who've had their hearts broken and need a medium to get
@@ -55,7 +69,10 @@
               </div>
 
               <div class="col-lg-3 col-md-4 col-sm-12">
-                <div class="custom-box" style="background-image: url(img/food.jpg)">
+                <div
+                  class="custom-box"
+                  style="background-image: url(img/food.jpg)"
+                >
                   <h2 style="color: white" class="h2">Eat Hard</h2>
                   <p class="p">
                     Track your calories. Bodies are made in the kitchen!!
@@ -99,6 +116,8 @@
         </div>
       </div>
     </section>
+
+    <script src="index.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
